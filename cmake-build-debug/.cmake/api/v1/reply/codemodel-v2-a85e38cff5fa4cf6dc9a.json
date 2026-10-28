@@ -15,7 +15,10 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -30,7 +33,10 @@
 					"name" : "Tarea5_Progra3",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -38,9 +44,30 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Tarea5_Progra3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Tarea5_Progra3-Debug-4d45726a354858e15fbe.json",
-					"name" : "Tarea5_Progra3",
+					"id" : "Ejercicio1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio1-Debug-f45edac627c45fe386ea.json",
+					"name" : "Ejercicio1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ejercicio2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio2-Debug-87b7f7e8ff49850285d0.json",
+					"name" : "Ejercicio2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ejercicio3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio3-Debug-05fa16384d443c17f763.json",
+					"name" : "Ejercicio3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ejercicio4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio4-Debug-3b29a0f28f706a63f96e.json",
+					"name" : "Ejercicio4",
 					"projectIndex" : 0
 				}
 			]

@@ -41,55 +41,136 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/juand/CLionProjects/Progra3_(intento2)/Tarea5_Progra3/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Tarea5_Progra3
+# Object build statements for EXECUTABLE target Ejercicio1
 
 
 #############################################
-# Order-only phony target for Tarea5_Progra3
+# Order-only phony target for Ejercicio1
 
-build cmake_object_order_depends_target_Tarea5_Progra3: phony || .
+build cmake_object_order_depends_target_Ejercicio1: phony || .
 
-build CMakeFiles/Tarea5_Progra3.dir/main.cpp.obj: CXX_COMPILER__Tarea5_Progra3_unscanned_Debug C$:/Users/juand/CLionProjects/Progra3_(intento2)/Tarea5_Progra3/main.cpp || cmake_object_order_depends_target_Tarea5_Progra3
-  DEP_FILE = CMakeFiles\Tarea5_Progra3.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Tarea5_Progra3.dir
-  OBJECT_FILE_DIR = CMakeFiles\Tarea5_Progra3.dir
-
-build CMakeFiles/Tarea5_Progra3.dir/Ejercicio2.cpp.obj: CXX_COMPILER__Tarea5_Progra3_unscanned_Debug C$:/Users/juand/CLionProjects/Progra3_(intento2)/Tarea5_Progra3/Ejercicio2.cpp || cmake_object_order_depends_target_Tarea5_Progra3
-  DEP_FILE = CMakeFiles\Tarea5_Progra3.dir\Ejercicio2.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Tarea5_Progra3.dir
-  OBJECT_FILE_DIR = CMakeFiles\Tarea5_Progra3.dir
-
-build CMakeFiles/Tarea5_Progra3.dir/Ejercicio3.cpp.obj: CXX_COMPILER__Tarea5_Progra3_unscanned_Debug C$:/Users/juand/CLionProjects/Progra3_(intento2)/Tarea5_Progra3/Ejercicio3.cpp || cmake_object_order_depends_target_Tarea5_Progra3
-  DEP_FILE = CMakeFiles\Tarea5_Progra3.dir\Ejercicio3.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Tarea5_Progra3.dir
-  OBJECT_FILE_DIR = CMakeFiles\Tarea5_Progra3.dir
-
-build CMakeFiles/Tarea5_Progra3.dir/Ejercicio4.cpp.obj: CXX_COMPILER__Tarea5_Progra3_unscanned_Debug C$:/Users/juand/CLionProjects/Progra3_(intento2)/Tarea5_Progra3/Ejercicio4.cpp || cmake_object_order_depends_target_Tarea5_Progra3
-  DEP_FILE = CMakeFiles\Tarea5_Progra3.dir\Ejercicio4.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Tarea5_Progra3.dir
-  OBJECT_FILE_DIR = CMakeFiles\Tarea5_Progra3.dir
+build CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj: CXX_COMPILER__Ejercicio1_unscanned_Debug C$:/Users/juand/CLionProjects/Progra3_(intento2)/Tarea5_Progra3/Ejercicio1.cpp || cmake_object_order_depends_target_Ejercicio1
+  DEP_FILE = CMakeFiles\Ejercicio1.dir\Ejercicio1.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicio1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicio1.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Tarea5_Progra3
+# Link build statements for EXECUTABLE target Ejercicio1
 
 
 #############################################
-# Link the executable Tarea5_Progra3.exe
+# Link the executable Ejercicio1.exe
 
-build Tarea5_Progra3.exe: CXX_EXECUTABLE_LINKER__Tarea5_Progra3_Debug CMakeFiles/Tarea5_Progra3.dir/main.cpp.obj CMakeFiles/Tarea5_Progra3.dir/Ejercicio2.cpp.obj CMakeFiles/Tarea5_Progra3.dir/Ejercicio3.cpp.obj CMakeFiles/Tarea5_Progra3.dir/Ejercicio4.cpp.obj
+build Ejercicio1.exe: CXX_EXECUTABLE_LINKER__Ejercicio1_Debug CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Tarea5_Progra3.dir
+  OBJECT_DIR = CMakeFiles\Ejercicio1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Tarea5_Progra3.exe
-  TARGET_IMPLIB = libTarea5_Progra3.dll.a
-  TARGET_PDB = Tarea5_Progra3.exe.dbg
+  TARGET_FILE = Ejercicio1.exe
+  TARGET_IMPLIB = libEjercicio1.dll.a
+  TARGET_PDB = Ejercicio1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ejercicio2
+
+
+#############################################
+# Order-only phony target for Ejercicio2
+
+build cmake_object_order_depends_target_Ejercicio2: phony || .
+
+build CMakeFiles/Ejercicio2.dir/Ejercicio2.cpp.obj: CXX_COMPILER__Ejercicio2_unscanned_Debug C$:/Users/juand/CLionProjects/Progra3_(intento2)/Tarea5_Progra3/Ejercicio2.cpp || cmake_object_order_depends_target_Ejercicio2
+  DEP_FILE = CMakeFiles\Ejercicio2.dir\Ejercicio2.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicio2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicio2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ejercicio2
+
+
+#############################################
+# Link the executable Ejercicio2.exe
+
+build Ejercicio2.exe: CXX_EXECUTABLE_LINKER__Ejercicio2_Debug CMakeFiles/Ejercicio2.dir/Ejercicio2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ejercicio2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ejercicio2.exe
+  TARGET_IMPLIB = libEjercicio2.dll.a
+  TARGET_PDB = Ejercicio2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ejercicio3
+
+
+#############################################
+# Order-only phony target for Ejercicio3
+
+build cmake_object_order_depends_target_Ejercicio3: phony || .
+
+build CMakeFiles/Ejercicio3.dir/Ejercicio3.cpp.obj: CXX_COMPILER__Ejercicio3_unscanned_Debug C$:/Users/juand/CLionProjects/Progra3_(intento2)/Tarea5_Progra3/Ejercicio3.cpp || cmake_object_order_depends_target_Ejercicio3
+  DEP_FILE = CMakeFiles\Ejercicio3.dir\Ejercicio3.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicio3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicio3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ejercicio3
+
+
+#############################################
+# Link the executable Ejercicio3.exe
+
+build Ejercicio3.exe: CXX_EXECUTABLE_LINKER__Ejercicio3_Debug CMakeFiles/Ejercicio3.dir/Ejercicio3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ejercicio3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ejercicio3.exe
+  TARGET_IMPLIB = libEjercicio3.dll.a
+  TARGET_PDB = Ejercicio3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ejercicio4
+
+
+#############################################
+# Order-only phony target for Ejercicio4
+
+build cmake_object_order_depends_target_Ejercicio4: phony || .
+
+build CMakeFiles/Ejercicio4.dir/Ejercicio4.cpp.obj: CXX_COMPILER__Ejercicio4_unscanned_Debug C$:/Users/juand/CLionProjects/Progra3_(intento2)/Tarea5_Progra3/Ejercicio4.cpp || cmake_object_order_depends_target_Ejercicio4
+  DEP_FILE = CMakeFiles\Ejercicio4.dir\Ejercicio4.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicio4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicio4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ejercicio4
+
+
+#############################################
+# Link the executable Ejercicio4.exe
+
+build Ejercicio4.exe: CXX_EXECUTABLE_LINKER__Ejercicio4_Debug CMakeFiles/Ejercicio4.dir/Ejercicio4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ejercicio4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ejercicio4.exe
+  TARGET_IMPLIB = libEjercicio4.dll.a
+  TARGET_PDB = Ejercicio4.exe.dbg
 
 
 #############################################
@@ -117,7 +198,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Tarea5_Progra3: phony Tarea5_Progra3.exe
+build Ejercicio1: phony Ejercicio1.exe
+
+build Ejercicio2: phony Ejercicio2.exe
+
+build Ejercicio3: phony Ejercicio3.exe
+
+build Ejercicio4: phony Ejercicio4.exe
 
 # =============================================================================
 # Folder targets.
@@ -127,7 +214,7 @@ build Tarea5_Progra3: phony Tarea5_Progra3.exe
 #############################################
 # Folder: C:/Users/juand/CLionProjects/Progra3_(intento2)/Tarea5_Progra3/cmake-build-debug
 
-build all: phony Tarea5_Progra3.exe
+build all: phony Ejercicio1.exe Ejercicio2.exe Ejercicio3.exe Ejercicio4.exe
 
 # =============================================================================
 # Built-in targets

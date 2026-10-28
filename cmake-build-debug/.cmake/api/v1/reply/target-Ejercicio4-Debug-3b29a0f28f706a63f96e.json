@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Tarea5_Progra3.exe"
+			"path" : "Ejercicio4.exe"
 		},
 		{
-			"path" : "Tarea5_Progra3.pdb"
+			"path" : "Ejercicio4.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 10,
 				"parent" : 0
 			}
 		]
@@ -38,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++20 -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
 				}
 			],
 			"language" : "CXX",
@@ -48,18 +48,15 @@
 				[
 					1
 				],
-				"standard" : "20"
+				"standard" : "14"
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3
+				0
 			]
 		}
 	],
-	"id" : "Tarea5_Progra3::@6890427a1f51a3e7e1df",
+	"id" : "Ejercicio4::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Tarea5_Progra3",
-	"nameOnDisk" : "Tarea5_Progra3.exe",
+	"name" : "Ejercicio4",
+	"nameOnDisk" : "Ejercicio4.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -92,33 +89,12 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3
+				0
 			]
 		}
 	],
 	"sources" : 
 	[
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Ejercicio2.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Ejercicio3.cpp",
-			"sourceGroupIndex" : 0
-		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,

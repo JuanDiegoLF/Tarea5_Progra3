@@ -1,0 +1,16 @@
+# ninja log v6
+68	767	8148643857462060	build.ninja	f4d175112b13df25
+8	1425	8148640611729813	CMakeFiles/Tarea5_Progra3.dir/Ejercicio3.cpp.obj	b095e1f5898a33ed
+32	911	8148638904992146	CMakeFiles/Tarea5_Progra3.dir/Ejercicio1.cpp.obj	2bf29c6cec81587a
+41	912	8148638905082890	CMakeFiles/Tarea5_Progra3.dir/Ejercicio2.cpp.obj	e3d6f98b1b5be8f2
+18	1464	8148640611824813	CMakeFiles/Tarea5_Progra3.dir/Ejercicio4.cpp.obj	a530f0cfe3e2e1f4
+2	404	8148643937256335	CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj	d5d64ae69884bb2d
+419	559	8148643941421792	Ejercicio1.exe	995f9c5c3cfb2ee5
+3	997	8148644083682073	CMakeFiles/Ejercicio3.dir/Ejercicio3.cpp.obj	5483ee746abdff4f
+1006	1240	8148644093718735	Ejercicio3.exe	ab7825ca8f8ca253
+2	1139	8148644463269684	CMakeFiles/Ejercicio4.dir/Ejercicio4.cpp.obj	19f6e816bd39be74
+1140	1428	8148644474641166	Ejercicio4.exe	57209a683d1a221b
+6	992	8148650327234898	CMakeFiles/Ejercicio2.dir/Ejercicio2.cpp.obj	96802b1590b04a49
+993	1277	8148650337103425	Ejercicio2.exe	ad454de3ba22d628
+7	814	8148658547695132	CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj	d5d64ae69884bb2d
+815	998	8148658555769529	Ejercicio1.exe	995f9c5c3cfb2ee5
